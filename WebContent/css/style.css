@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+#assignListTable{
+	width: 100%;
+	table-layout:fixed;
+	border: solid;
+	border-color: white;
+}
+
+#assignListTable, td {
+	word-wrap:break-word;
+}
