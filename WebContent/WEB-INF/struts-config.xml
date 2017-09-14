@@ -6,11 +6,11 @@
 <struts-config>
 
 <form-beans>      
-        <form-bean name="loginForm" type="com.javacart.forms.LoginForm"/>
+        <form-bean name="loginForm" type="com.getswift.forms.LoginForm"/>
     </form-beans>
     
 	<action-mappings>
-        <action name="loginForm" path="/login" type="com.javacart.actions.LoginAction" scope="request" input="/login.jsp">
+        <action name="loginForm" path="/login" type="com.getswift.actions.LoginAction" scope="request" input="/login.jsp">
             <forward name="success" path="/login.jsp" redirect="true"/>
         </action>
     </action-mappings>
